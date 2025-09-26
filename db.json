@@ -1,0 +1,53 @@
+{
+  "cuchillos": [
+    {
+      "id": "9258",
+      "nombre": "Century",
+      "tipo": "para Vegetales",
+      "largoHoja": 7,
+      "largoTotal": 18
+    },
+    {
+      "id": "658b",
+      "nombre": "Polywood",
+      "tipo": "de Pan",
+      "largoHoja": 18,
+      "largoTotal": 30
+    },
+    {
+      "id": "5cd5",
+      "nombre": "Century",
+      "tipo": "Mondador",
+      "largoHoja": 10,
+      "largoTotal": 21
+    },
+    {
+      "id": "7607",
+      "nombre": "Nygma",
+      "tipo": "Santoku",
+      "largoHoja": 16,
+      "largoTotal": 30
+    },
+    {
+      "id": "5ade",
+      "nombre": "Samurai",
+      "tipo": "de Pan",
+      "largoHoja": 20,
+      "largoTotal": 25
+    },
+    {
+      "id": "4de7",
+      "nombre": "Espadachin",
+      "tipo": "Fileteador",
+      "largoHoja": 7,
+      "largoTotal": 30
+    },
+    {
+      "id": "1fc5",
+      "nombre": "Excalibur",
+      "tipo": "Fileteador",
+      "largoHoja": 29,
+      "largoTotal": 45
+    }
+  ]
+}

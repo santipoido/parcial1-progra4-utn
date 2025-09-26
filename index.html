@@ -1,0 +1,65 @@
+<!--Santiago Poidomani | Programación 4 | Primer Parcial-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestor de Cuchillos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-container">
+      <button id="btn-nuestros-cuchillos" class="boton">Nuestros Cuchillos</button>
+      <button id="btn-agregar-cuchillo" class="boton">Agregar Cuchillo</button>
+    </div>
+  </header>
+
+  <main class="main">
+    <h1 class="titulo">Gestor de Cuchillos</h1>
+
+    <section class="tarjeta">
+      <h2 class="tarjeta-titulo">Catálogo de Cuchillos</h2>
+      <p id="cargando-cuchillos" class="texto-secundario">Cargando cuchillos...</p>
+      <ul id="lista-cuchillos"></ul>
+    </section>
+
+    <section class="tarjeta">
+      <h2 class="tarjeta-titulo">Agregar Cuchillos</h2>
+
+      <form id="formulario" class="formulario">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre del cuchillo">
+
+        <label for="tipo">Tipo de Cuchillo:</label>
+        <select id="tipo">
+          <option value="" disabled selected>Escoja el tipo del cuchillo</option>
+          <option>de Chef</option>
+          <option>Deshuesador</option>
+          <option>Fileteador</option>
+          <option>Mondador</option>
+          <option>de Pan</option>
+          <option>Santoku</option>
+          <option>para Vegetales</option>
+        </select>
+
+        <label for="largo-hoja">Largo de Hoja (cm):</label>
+        <input type="number" name="largo-hoja" id="largo-hoja" placeholder="Entre 5cm y 30cm">
+
+        <label for="largo-total">Largo Total (cm):</label>
+        <input type="number" name="largo-total" id="largo-total" placeholder="Entre 10cm y 45cm">
+
+        <div class="form-acciones">
+          <button type="reset" class="boton">Borrar</button>
+          <button type="submit" class="boton boton-primario">Enviar</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    © 2025 Cuchillos UTN-FRMDP (Poidomani Santiago)
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
